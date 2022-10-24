@@ -1,0 +1,3 @@
+Esse Projeto foi feito com intuito de ajudar pessoas em suas rotinas, auxiliando o usuário nos seus afazeres do dia a dia. O sistema terá também, uma funcionalidade de recomendar coisas para o utilizador do aplicativo/site, coisas como jogar, assistir e treinar estão incluídas nessa função.
+A ideia de chegar atrasado em um compromisso ou esquecer de fazer algo é horrível, por isso, essa aplicação está aqui para ajudar.
+Desenvolvedores: Dionatan Inhoato Markiu, Karina Chavaren da Silva, Roberto Naim Jarjoura El Achkar Junior, Vitória Suello Rocha. Graduandos do curso de Engenharia de Software do Centro Universitário Campo Real.
