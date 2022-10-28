@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background: url(img/Plano_de_fundo.png), linear-gradient(45deg, rgba(106,210,224,1) 0%, rgba(166,90,227,1) 65%, rgba(255,171,0,1) 100%);
 
@@ -8,14 +13,22 @@ body{
 #alinhamento{
     padding: 20px;
     margin-left: auto;
-    margin-right: auto;    
-
+    margin-right: auto; 
     
 }
 
-#espacamento{
-    width: 50%;
+#registro{
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 
+#espacamento{
+    margin-top: 0;
 }
 
 a:hover {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,21 +13,50 @@
 
     <link rel="stylesheet" href="js/bootstrap.js">
 </head>
+
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="card">
-                <div class="card-body">
-                    <form action="">
+    <section>
+        <div class="container">
+        <div class="row mt-4">
+            <div class="card" id="registro" >
+                <h1 class="text-center">Registro</h1>
+                <div class="card-body " >
+                    <form class="" action="">
                         <div class="form-group">
                             <h4><label class="" for="">Nome completo</label></h4>
-                            <input type="text" class="form-control form-control-lg" aria-describedby="nomeHelp">
+                            <input type="text" class="form-control form-control-lg"  aria-describedby="r_nomeHelp"
+                                placeholder="Seu nome">
                         </div>
+                        <div class="form-group">
+                            <h4><label>Email</label></h4>
+                            <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" aria-describedby="r_emailhelp"
+                                placeholder="Seu Email">
+                        </div>
+                        <div class="form-group">
+                            <h4><label for="">Insira uma senha</label></h4>
+                            <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" aria-describedby="r_senha"
+                                placeholder="Senha">
+                        </div>
+                        <div class="form-group">
+                            <h4><label for="">Confirme sua senha</label></h4>
+                            <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" aria-describedby="r_conf_senha"
+                                placeholder="Confirme">
+
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input">
+                            <label for="aceitaTermos" class="form-check-label">Eu aceito os <a
+                                    href="index.html">Termos</a></label>
+                        </div>
+
+                        <a href=""><button type="button" class="btn btn-outline-primary btn-lg">Continuar</button></a>
                     </form>
                 </div>
             </div>
         </div>
-
     </div>
+    </section>
+    
 </body>
+
 </html>
