@@ -1,5 +1,5 @@
 body {
-    background: url("/img/Plano_de_fundo.png"), linear-gradient(45deg, rgba(106, 210, 224, 1) 0%, rgba(166, 90, 227, 1) 65%, rgba(255, 171, 0, 1) 100%);
+    background: url("/IMG/Plano_de_fundo.png"), linear-gradient(45deg, rgba(106, 210, 224, 1) 0%, rgba(166, 90, 227, 1) 65%, rgba(255, 171, 0, 1) 100%);
     background-attachment: fixed;
     background-size: cover;
 }
