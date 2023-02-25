@@ -43,7 +43,7 @@
                                 <label for="senha">Digite sua senha...</label>
                             </div>
                             <div class="form-check mb-2">
-                                <input type="checkbox" class="form-check-input" id="mostrar-senha"
+                                <input type="checkbox" onclick="mostrarSenha()" class="form-check-input" id="mostrar-senha"
                                     aria-describedby="mostrar-senha">
                                 <label for="mostrar-senha" class="form-check-label">Mostra senha</label>
                             </div>
@@ -64,7 +64,17 @@
             </footer>
         </div>
     </section>
+    <script>
+        function mostrarSenha(){
+            var senha = document.getElementById("senha");
 
+            if(senha.type == "password"){
+                senha.type = "text";
+            }else{
+                senha.type = "password";
+            }
+        }
+    </script>
 
 </body>
 
